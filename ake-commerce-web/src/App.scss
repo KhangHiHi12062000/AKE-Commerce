@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:Wght@400:600');
+
+$navbar-color: #0079bf;
+
+body{
+  margin: 0;
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 14px;
+  line-height: 1.3em;
+}
+
+.Login-Container{
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 40px 50px 1fr;
+  background-color: white;
+
+  .NavBar-Login{
+    padding-left: 10px;
+    background-color: $navbar-color;
+  }
+
+  .Board-Login{
+    display: flex;
+    height: 90vh;
+    background-color: aqua;
+  }
+
+  .NavBar-Footer{
+    text-align: center;
+  }
+}
+
